@@ -1,0 +1,144 @@
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] MongoDB starting : pid=312 port=27017 dbpath=/home/jovyan/./data/db 64-bit host=jupyter-jorroz-2dwhyisthisathing-2dbo2hkps2
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] db version v3.6.3
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] git version: 9586e557d54ef70f9ca4b43c26892cd55257e1a5
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] modules: none
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] build environment:
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-12-02T07:58:48.484+0000 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "./data/db" }, systemLog: { destination: "file", path: "./log/mongodb.log" } }
+2019-12-02T07:58:48.487+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=51861M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] 
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] 
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-12-02T07:58:49.130+0000 I CONTROL  [initandlisten] 
+2019-12-02T07:58:49.131+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: ab1b9826-cd12-4e4c-8147-2eea683851b8
+2019-12-02T07:58:49.140+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2019-12-02T07:58:49.144+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 554e03eb-e727-4d97-80d9-00c70a2e3b55
+2019-12-02T07:58:49.153+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/jovyan/./data/db/diagnostic.data'
+2019-12-02T07:58:49.154+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-12-02T07:58:55.217+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:56644 #1 (1 connection now open)
+2019-12-02T07:58:55.218+0000 I COMMAND  [conn1] CMD: drop demo.collection
+2019-12-02T07:58:55.225+0000 I NETWORK  [conn1] end connection 127.0.0.1:56644 (0 connections now open)
+2019-12-02T07:59:21.177+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:49514 #2 (1 connection now open)
+2019-12-02T07:59:21.178+0000 I COMMAND  [conn2] CMD: drop demo.meteorite_landings_on_earth
+2019-12-02T07:59:21.182+0000 I NETWORK  [conn2] end connection 127.0.0.1:49514 (0 connections now open)
+2019-12-02T08:02:49.063+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42414 #3 (1 connection now open)
+2019-12-02T08:02:49.064+0000 I COMMAND  [conn3] CMD: drop demo.meteorite_landings_on_earth
+2019-12-02T08:02:49.089+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42442 #4 (2 connections now open)
+2019-12-02T08:02:49.093+0000 I STORAGE  [conn4] createCollection: demo.meteorite_landings_on_earth with generated UUID: 6330c6bf-14b5-4f0c-b50e-eee1131a9da1
+2019-12-02T08:02:49.112+0000 I NETWORK  [conn3] end connection 127.0.0.1:42414 (1 connection now open)
+2019-12-02T08:02:49.113+0000 I NETWORK  [conn4] end connection 127.0.0.1:42442 (0 connections now open)
+2019-12-02T08:03:47.744+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:48378 #5 (1 connection now open)
+2019-12-02T08:03:47.744+0000 I NETWORK  [conn5] received client metadata from 127.0.0.1:48378 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:03:47.753+0000 I NETWORK  [conn5] end connection 127.0.0.1:48378 (0 connections now open)
+2019-12-02T08:03:49.154+0000 I STORAGE  [thread6] createCollection: config.system.sessions with generated UUID: c9b28e41-8f32-4fe9-8938-06d20052924e
+2019-12-02T08:03:49.172+0000 I INDEX    [thread6] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2019-12-02T08:03:49.172+0000 I INDEX    [thread6] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2019-12-02T08:03:49.173+0000 I INDEX    [thread6] build index done.  scanned 0 total records. 0 secs
+2019-12-02T08:03:57.438+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58344 #6 (1 connection now open)
+2019-12-02T08:03:57.439+0000 I NETWORK  [conn6] received client metadata from 127.0.0.1:58344 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:03:57.445+0000 I NETWORK  [conn6] end connection 127.0.0.1:58344 (0 connections now open)
+2019-12-02T08:04:04.046+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:37208 #7 (1 connection now open)
+2019-12-02T08:04:04.047+0000 I COMMAND  [conn7] CMD: drop demo.meteorite_landings_on_earth
+2019-12-02T08:04:04.047+0000 I STORAGE  [conn7] Finishing collection drop for demo.meteorite_landings_on_earth (6330c6bf-14b5-4f0c-b50e-eee1131a9da1).
+2019-12-02T08:04:04.067+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:37250 #8 (2 connections now open)
+2019-12-02T08:04:04.072+0000 I STORAGE  [conn8] createCollection: demo.meteorite_landings_on_earth with generated UUID: 29061a2e-acc5-42aa-a0b0-9c494b274ec8
+2019-12-02T08:04:04.091+0000 I NETWORK  [conn7] end connection 127.0.0.1:37208 (1 connection now open)
+2019-12-02T08:04:04.091+0000 I NETWORK  [conn8] end connection 127.0.0.1:37250 (0 connections now open)
+2019-12-02T08:04:05.701+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:39144 #9 (1 connection now open)
+2019-12-02T08:04:05.701+0000 I NETWORK  [conn9] received client metadata from 127.0.0.1:39144 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:04:05.708+0000 I NETWORK  [conn9] end connection 127.0.0.1:39144 (0 connections now open)
+2019-12-02T08:04:44.310+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:55936 #10 (1 connection now open)
+2019-12-02T08:04:44.311+0000 I COMMAND  [conn10] CMD: drop demo.landings
+2019-12-02T08:04:44.330+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:55964 #11 (2 connections now open)
+2019-12-02T08:04:44.334+0000 I STORAGE  [conn11] createCollection: demo.landings with generated UUID: ac4bd648-a84f-4afb-be51-a6609fad4c5a
+2019-12-02T08:04:44.349+0000 I NETWORK  [conn10] end connection 127.0.0.1:55936 (1 connection now open)
+2019-12-02T08:04:44.350+0000 I NETWORK  [conn11] end connection 127.0.0.1:55964 (0 connections now open)
+2019-12-02T08:04:52.658+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:37728 #12 (1 connection now open)
+2019-12-02T08:04:52.659+0000 I NETWORK  [conn12] received client metadata from 127.0.0.1:37728 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:04:52.674+0000 I NETWORK  [conn12] end connection 127.0.0.1:37728 (0 connections now open)
+2019-12-02T08:15:01.616+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:44770 #13 (1 connection now open)
+2019-12-02T08:15:01.616+0000 I NETWORK  [conn13] received client metadata from 127.0.0.1:44770 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:24:28.163+0000 I NETWORK  [conn13] end connection 127.0.0.1:44770 (0 connections now open)
+2019-12-02T08:24:58.430+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53328 #14 (1 connection now open)
+2019-12-02T08:24:58.432+0000 I COMMAND  [conn14] CMD: drop landingsdb.landings
+2019-12-02T08:24:58.449+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:53364 #15 (2 connections now open)
+2019-12-02T08:24:58.452+0000 I STORAGE  [conn15] createCollection: landingsdb.landings with generated UUID: 336dccda-28a7-426a-842d-59a7195ef6e0
+2019-12-02T08:24:58.469+0000 I NETWORK  [conn14] end connection 127.0.0.1:53328 (1 connection now open)
+2019-12-02T08:24:58.471+0000 I NETWORK  [conn15] end connection 127.0.0.1:53364 (0 connections now open)
+2019-12-02T08:25:01.632+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:57972 #16 (1 connection now open)
+2019-12-02T08:25:01.633+0000 I NETWORK  [conn16] received client metadata from 127.0.0.1:57972 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:25:01.648+0000 I NETWORK  [conn16] end connection 127.0.0.1:57972 (0 connections now open)
+2019-12-02T08:29:17.771+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:37758 #17 (1 connection now open)
+2019-12-02T08:29:17.772+0000 I NETWORK  [conn17] received client metadata from 127.0.0.1:37758 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:29:17.781+0000 I NETWORK  [conn17] end connection 127.0.0.1:37758 (0 connections now open)
+2019-12-02T08:37:02.645+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:38682 #18 (1 connection now open)
+2019-12-02T08:37:02.645+0000 I NETWORK  [conn18] received client metadata from 127.0.0.1:38682 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:37:02.653+0000 I NETWORK  [conn18] end connection 127.0.0.1:38682 (0 connections now open)
+2019-12-02T08:37:07.774+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:47162 #19 (1 connection now open)
+2019-12-02T08:37:07.775+0000 I NETWORK  [conn19] received client metadata from 127.0.0.1:47162 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T08:37:07.783+0000 I NETWORK  [conn19] end connection 127.0.0.1:47162 (0 connections now open)
+2019-12-02T08:54:33.427+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58894 #20 (1 connection now open)
+2019-12-02T08:54:33.428+0000 I NETWORK  [conn20] received client metadata from 127.0.0.1:58894 conn: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "4.14.138+" }, platform: "CPython 3.7.3.final.0" }
+2019-12-02T09:00:44.902+0000 I NETWORK  [conn20] end connection 127.0.0.1:58894 (0 connections now open)
+2019-12-02T09:06:54.902+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41578 #21 (1 connection now open)
+2019-12-02T09:06:54.904+0000 I COMMAND  [conn21] CMD: drop landingsdb.landings
+2019-12-02T09:06:54.904+0000 I STORAGE  [conn21] Finishing collection drop for landingsdb.landings (336dccda-28a7-426a-842d-59a7195ef6e0).
+2019-12-02T09:06:54.928+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41614 #22 (2 connections now open)
+2019-12-02T09:06:54.931+0000 I STORAGE  [conn22] createCollection: landingsdb.landings with generated UUID: 972f452e-3e12-46bb-8695-75352805516b
+2019-12-02T09:06:54.947+0000 I NETWORK  [conn21] end connection 127.0.0.1:41578 (1 connection now open)
+2019-12-02T09:06:54.949+0000 I NETWORK  [conn22] end connection 127.0.0.1:41614 (0 connections now open)
+2019-12-02T09:06:56.880+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:43706 #23 (1 connection now open)
+2019-12-02T09:06:56.881+0000 I NETWORK  [conn23] received client metadata from 127.0.0.1:43706 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T09:06:56.897+0000 I NETWORK  [conn23] end connection 127.0.0.1:43706 (0 connections now open)
+2019-12-02T09:07:01.005+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:48204 #24 (1 connection now open)
+2019-12-02T09:07:01.005+0000 I NETWORK  [conn24] received client metadata from 127.0.0.1:48204 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T09:07:01.012+0000 I NETWORK  [conn24] end connection 127.0.0.1:48204 (0 connections now open)
+2019-12-02T09:07:02.816+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:50144 #25 (1 connection now open)
+2019-12-02T09:07:02.816+0000 I NETWORK  [conn25] received client metadata from 127.0.0.1:50144 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T09:07:02.823+0000 I NETWORK  [conn25] end connection 127.0.0.1:50144 (0 connections now open)
+2019-12-02T09:07:58.235+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54330 #26 (1 connection now open)
+2019-12-02T09:07:58.236+0000 I NETWORK  [conn26] received client metadata from 127.0.0.1:54330 conn: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "4.14.138+" }, platform: "CPython 3.7.3.final.0" }
+2019-12-02T09:07:58.237+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54334 #27 (2 connections now open)
+2019-12-02T09:07:58.238+0000 I NETWORK  [conn27] received client metadata from 127.0.0.1:54334 conn: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "4.14.138+" }, platform: "CPython 3.7.3.final.0" }
+2019-12-02T09:07:58.239+0000 I COMMAND  [conn27] CMD: drop landingsdb.landings
+2019-12-02T09:07:58.239+0000 I STORAGE  [conn27] Finishing collection drop for landingsdb.landings (972f452e-3e12-46bb-8695-75352805516b).
+2019-12-02T09:08:42.223+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41216 #28 (3 connections now open)
+2019-12-02T09:08:42.224+0000 I NETWORK  [conn28] received client metadata from 127.0.0.1:41216 conn: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "4.14.138+" }, platform: "CPython 3.7.3.final.0" }
+2019-12-02T09:08:42.224+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:41218 #29 (4 connections now open)
+2019-12-02T09:08:42.225+0000 I NETWORK  [conn29] received client metadata from 127.0.0.1:41218 conn: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "4.14.138+" }, platform: "CPython 3.7.3.final.0" }
+2019-12-02T09:08:42.225+0000 I COMMAND  [conn29] CMD: drop landingsdb.landings
+2019-12-02T09:20:18.109+0000 I NETWORK  [conn29] end connection 127.0.0.1:41218 (3 connections now open)
+2019-12-02T09:20:18.109+0000 I NETWORK  [conn27] end connection 127.0.0.1:54334 (1 connection now open)
+2019-12-02T09:20:18.109+0000 I NETWORK  [conn28] end connection 127.0.0.1:41216 (2 connections now open)
+2019-12-02T09:20:18.110+0000 I NETWORK  [conn26] end connection 127.0.0.1:54330 (0 connections now open)
+2019-12-02T09:21:03.213+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:55200 #30 (1 connection now open)
+2019-12-02T09:21:03.215+0000 I COMMAND  [conn30] CMD: drop landingsdb.landings
+2019-12-02T09:21:03.234+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:55254 #31 (2 connections now open)
+2019-12-02T09:21:03.238+0000 I STORAGE  [conn31] createCollection: landingsdb.landings with generated UUID: ea5d7d44-3cf4-4c0a-bf9b-de1fa0a9b32d
+2019-12-02T09:21:03.255+0000 I NETWORK  [conn30] end connection 127.0.0.1:55200 (1 connection now open)
+2019-12-02T09:21:03.256+0000 I NETWORK  [conn31] end connection 127.0.0.1:55254 (0 connections now open)
+2019-12-02T09:21:04.938+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:57980 #32 (1 connection now open)
+2019-12-02T09:21:04.938+0000 I NETWORK  [conn32] received client metadata from 127.0.0.1:57980 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T09:21:04.961+0000 I NETWORK  [conn32] end connection 127.0.0.1:57980 (0 connections now open)
+2019-12-02T09:21:06.481+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:60348 #33 (1 connection now open)
+2019-12-02T09:21:06.481+0000 I NETWORK  [conn33] received client metadata from 127.0.0.1:60348 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T09:21:06.489+0000 I NETWORK  [conn33] end connection 127.0.0.1:60348 (0 connections now open)
+2019-12-02T09:21:07.813+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:34154 #34 (1 connection now open)
+2019-12-02T09:21:07.813+0000 I NETWORK  [conn34] received client metadata from 127.0.0.1:34154 conn: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.3" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "18.04" } }
+2019-12-02T09:21:07.823+0000 I NETWORK  [conn34] end connection 127.0.0.1:34154 (0 connections now open)
+2019-12-02T09:21:23.514+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:59026 #35 (1 connection now open)
+2019-12-02T09:21:23.515+0000 I NETWORK  [conn35] received client metadata from 127.0.0.1:59026 conn: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "4.14.138+" }, platform: "CPython 3.7.3.final.0" }
+2019-12-02T09:21:23.516+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:59030 #36 (2 connections now open)
+2019-12-02T09:21:23.517+0000 I NETWORK  [conn36] received client metadata from 127.0.0.1:59030 conn: { driver: { name: "PyMongo", version: "3.9.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "4.14.138+" }, platform: "CPython 3.7.3.final.0" }
+2019-12-02T09:21:23.517+0000 I COMMAND  [conn36] CMD: drop landingsdb.landings
+2019-12-02T09:21:23.518+0000 I STORAGE  [conn36] Finishing collection drop for landingsdb.landings (ea5d7d44-3cf4-4c0a-bf9b-de1fa0a9b32d).

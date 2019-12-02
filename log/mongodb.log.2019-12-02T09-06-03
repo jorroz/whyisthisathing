@@ -1,0 +1,13 @@
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] MongoDB starting : pid=688 port=27017 dbpath=/home/jovyan/./data/db 64-bit host=jupyter-jorroz-2dwhyisthisathing-2dbo2hkps2
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] db version v3.6.3
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] git version: 9586e557d54ef70f9ca4b43c26892cd55257e1a5
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] modules: none
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] build environment:
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-12-02T09:05:19.930+0000 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "./data/db" }, systemLog: { destination: "file", path: "./log/mongodb.log" } }
+2019-12-02T09:05:19.931+0000 I STORAGE  [initandlisten] exception in initAndListen: DBPathInUse: Unable to lock the lock file: /home/jovyan/./data/db/mongod.lock (Resource temporarily unavailable). Another mongod instance is already running on the /home/jovyan/./data/db directory, terminating
+2019-12-02T09:05:19.931+0000 I CONTROL  [initandlisten] now exiting
+2019-12-02T09:05:19.931+0000 I CONTROL  [initandlisten] shutting down with code:100
