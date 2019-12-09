@@ -1,0 +1,35 @@
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] MongoDB starting : pid=207 port=27017 dbpath=./data/db 64-bit host=jupyter-jorroz-2dwhyisthisathing-2dnoxv1sz1
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] db version v3.6.3
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] git version: 9586e557d54ef70f9ca4b43c26892cd55257e1a5
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] modules: none
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] build environment:
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-12-09T08:15:32.125+0000 I CONTROL  [initandlisten] options: { storage: { dbPath: "./data/db" }, systemLog: { destination: "file", path: "./log/mongodb.log" } }
+2019-12-09T08:15:32.128+0000 W -        [initandlisten] Detected unclean shutdown - ./data/db/mongod.lock is not empty.
+2019-12-09T08:15:32.129+0000 I -        [initandlisten] Detected data files in ./data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-12-09T08:15:32.129+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2019-12-09T08:15:32.129+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=6826M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-12-09T08:15:32.998+0000 I STORAGE  [initandlisten] WiredTiger message [1575879332:998317][207:0x7f57bc4270c0], txn-recover: Main recovery loop: starting at 1/675328
+2019-12-09T08:15:32.998+0000 I STORAGE  [initandlisten] WiredTiger message [1575879332:998794][207:0x7f57bc4270c0], txn-recover: Recovering log 1 through 2
+2019-12-09T08:15:33.050+0000 I STORAGE  [initandlisten] WiredTiger message [1575879333:50535][207:0x7f57bc4270c0], txn-recover: Recovering log 2 through 2
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] 
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] 
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] 
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] 
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2019-12-09T08:15:33.115+0000 I CONTROL  [initandlisten] 
+2019-12-09T08:15:33.139+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory './data/db/diagnostic.data'
+2019-12-09T08:15:33.140+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-12-09T08:15:34.017+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
